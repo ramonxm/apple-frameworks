@@ -8,13 +8,18 @@
 import SwiftUI
 
 struct FrameworkGridView: View {
+    let columns: [GridItem] = [GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible())]
+    
     var body: some View {
-        VStack {
-            Image("app-clip")
-                .resizable()
-                .frame(width: 90, height: 90)
-            Text("App Clips")
-                .font(.title2)
+        ScrollView {
+            LazyVGrid(columns: columns) {
+                ForEach(MockData.frameworks) { framework in
+                    FrameworkTitle(framework: framework)
+                        .onTapGesture {
+                            
+                        }
+                }
+            }
         }
     }
 }
