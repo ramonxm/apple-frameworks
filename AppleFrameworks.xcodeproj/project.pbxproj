@@ -10,6 +10,8 @@
 		BC4E1AE52C740F060049AEBC /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E1AE42C740F060049AEBC /* FrameworkDetailView.swift */; };
 		BC4E1AE82C740FE00049AEBC /* FrameworkTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E1AE72C740FE00049AEBC /* FrameworkTitle.swift */; };
 		BC4E1AEA2C74119A0049AEBC /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E1AE92C74119A0049AEBC /* AFButton.swift */; };
+		BC4E1AEE2C74191D0049AEBC /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E1AED2C74191D0049AEBC /* FrameworkGridViewModel.swift */; };
+		BC4E1AF12C7555E10049AEBC /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E1AF02C7555E10049AEBC /* SafariView.swift */; };
 		BCC126622C6C21C300B9B662 /* AppleFrameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC126612C6C21C300B9B662 /* AppleFrameworksApp.swift */; };
 		BCC126662C6C21C500B9B662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC126652C6C21C500B9B662 /* Assets.xcassets */; };
 		BCC126692C6C21C500B9B662 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC126682C6C21C500B9B662 /* Preview Assets.xcassets */; };
@@ -21,6 +23,8 @@
 		BC4E1AE42C740F060049AEBC /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 		BC4E1AE72C740FE00049AEBC /* FrameworkTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitle.swift; sourceTree = "<group>"; };
 		BC4E1AE92C74119A0049AEBC /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
+		BC4E1AED2C74191D0049AEBC /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
+		BC4E1AF02C7555E10049AEBC /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		BCC1265E2C6C21C300B9B662 /* AppleFrameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleFrameworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC126612C6C21C300B9B662 /* AppleFrameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFrameworksApp.swift; sourceTree = "<group>"; };
 		BCC126652C6C21C500B9B662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +53,22 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		BC4E1AEC2C7419030049AEBC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BC4E1AED2C74191D0049AEBC /* FrameworkGridViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BC4E1AEF2C75558B0049AEBC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC4E1AF02C7555E10049AEBC /* SafariView.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		BCC126552C6C21C300B9B662 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +88,8 @@
 		BCC126602C6C21C300B9B662 /* AppleFrameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BC4E1AEF2C75558B0049AEBC /* Controllers */,
+				BC4E1AEC2C7419030049AEBC /* ViewModels */,
 				BC4E1AE62C740FC00049AEBC /* Components */,
 				BCC126722C6C3D9800B9B662 /* Views */,
 				BCC1266F2C6C2F1800B9B662 /* Models */,
@@ -177,7 +199,9 @@
 				BCC126742C6C3EE700B9B662 /* FrameworkGridView.swift in Sources */,
 				BCC126712C6C2F2C00B9B662 /* Framework.swift in Sources */,
 				BCC126622C6C21C300B9B662 /* AppleFrameworksApp.swift in Sources */,
+				BC4E1AF12C7555E10049AEBC /* SafariView.swift in Sources */,
 				BC4E1AEA2C74119A0049AEBC /* AFButton.swift in Sources */,
+				BC4E1AEE2C74191D0049AEBC /* FrameworkGridViewModel.swift in Sources */,
 				BC4E1AE82C740FE00049AEBC /* FrameworkTitle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
